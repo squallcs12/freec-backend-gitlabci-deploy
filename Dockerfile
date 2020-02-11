@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.7
 RUN apt-get update -qq \
 && apt install -y groff gettext \
 && pip install awscli invoke \
